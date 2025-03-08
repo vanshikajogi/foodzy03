@@ -1,0 +1,90 @@
+/*.chat-bot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    z-index: 1000; 
+}*/
+/* Home.css */
+
+/* Home.css */
+
+.chatbot-button {
+    position: fixed; /* Keep it fixed on the bottom right */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    background-color: #ff8800; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Cursor change on hover */
+    font-size: 16px; /* Font size */
+    z-index: 1001; /* Ensure it appears above other elements */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.chatbot-button:hover {
+    background-color: #ff8800; /* Darker color on hover */
+}
+
+.chat-bot {
+    position: fixed; /* Keep it fixed on the bottom right */
+    bottom: 80px; /* Adjust according to your design */
+    right: 20px; /* Adjust according to your design */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Optional: add rounded corners */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+
+.chat-bot {
+    position: fixed; /* Keep it fixed on the bottom right */
+    bottom: 80px; /* Adjust according to your design */
+    right: 20px;
+    border: none; /* Remove border */
+    border-radius: 10px; /* Optional: add rounded corners */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .nav-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .food-court-btn {
+    background-color: #ff7f50; /* Coral */
+    color: white;
+  }
+    
+  .nav-button:hover {
+    opacity: 0.8;
+  }
+  .foodcourt-button {
+    display: block;
+    margin: 20px auto;  /* Centers the button horizontally */
+    padding: 12px 20px;
+    background: orange;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.foodcourt-button:hover {
+    background: darkorange;
+}
